@@ -1,0 +1,47 @@
+h3 {
+	font-size:20px;
+}
+
+.picture1 {
+	position: relative;
+	width: 100%;
+}
+h2 {
+
+	position: absolute;
+	top: 5px;
+	left: 450px;
+}
+
+h4 {
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	font-size: 20px;
+	padding:10px 381px 10px 400px;
+	background-color: red;
+	text-align: center;
+
+}
+
+.text1 {
+	padding:10px 100px 10px 100px;
+	width:300px;
+	word-wrap:normal;
+}
+
+.text2 {
+	padding:10px 381px 10px 400px;
+	width:300px;
+	word-wrap:normal;
+}
+
+footer {
+	position: absolute;
+	top: 970px;
+	left: 0px;
+	font-size: 16px;
+	padding:10px 381px 10px 400px;
+	background-color: red;
+	text-align: center;
+}
