@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="main.css" />
+		<title>Eddie Noel</title>
+		<script>
+			var imageSet = ["http://images.mstarz.com/data/images/full/12473/kobe-bryant.jpg", "http://www.bubblews.com/assets/images/news/1928675928_1359921208.jpg", "http://1.bp.blogspot.com/-EHMqqglUe-8/URRPVveVf8I/AAAAAAAAB9g/qkbz-4dto0I/s640/vince-carter.jpg"];
+			function setRandomBanner() {
+				var bannerDiv = document.getElementById('banner');
+				var randomIndex = Math.floor(Math.random() * imageSet.length);
+				banner.innerHTML = "<img src='" + imageSet[randomIndex] + "' height='400' width='400'/>";
+			}
+				function run()
+					{
+					setInterval(setRandomBanner, 500);
+					}
+		</script>
+	</head>
+	<body>
+			<div class= "wrapper">
+		<div class= "eli"><img src="file:///C:/Users/Maur/Documents/eli.jpg" height="300"/>
+			<h3>ELI MANNING</h3>
+
+
+		</div>
+		<div class= "Nehemiah"><img src="file:///C:/Users/Maur/Documents/nehemiah1.jpg" height="300" />
+			<h3>Nehemiah and I</h3>
+
+		</div>
+		<br />
+		<div class="aboutme">
+		<p>My name is Eddie Noel. I am 27 years old. I have a son named Nehemiah. I love to play basketball, video games and traveling.</p>
+		<p>I graduated from Umass Amherst in May 2009 with an Economics Degree. I have 4-5 years of Management/Sales experience. Currently, I work at a pawnshop that my best friend owns.</p>
+		<h4>Contact Information</h4>
+		<p>Eddie Noel<p>
+				<p>enoel1223@gmail.com</p>
+				<p>(781)603-6534</p>
+		</div>
+		<div class= "Nehemiah1"><img src="file:///C:/Users/Maur/Documents/tylerswedding.jpg" height="300" />
+			<h3>Tyler's Wedding</h3>
+		</div>
+		<div id="banner"></div>
+
+		<script>window.onload = run;</script>
+</div>
+	</body>
+</html>
